@@ -21,7 +21,7 @@ lista_clasica=[
 ]
 
 st.header("Recomendamos música según tus gustos")
-genero=st.radio("Rock","Clásica","Reggeton")
+genero=st.radio("Géneros",("Rock","Clásica","Reggeton"))
 if genero=="Reggeton":
     st.write("Tienes que elegir música")
     st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
